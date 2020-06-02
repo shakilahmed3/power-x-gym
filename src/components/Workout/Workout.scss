@@ -30,9 +30,40 @@
     background-size: 100%, 100%;  
     @extend %cardBody;
 }
+
 .trainingImage2{
     background-image: url('../../Images/arthur-edelman-qfjuh4OLdxw-unsplash.jpg');
     background-size: 100%, 100%;  
+    @extend %cardBody;
+}
+.image1{
+    background-image: url('../../Images/victor-freitas-546919-unsplash.png');
+    background-size: 450px, 100%;  
+    @extend %cardBody;
+}
+.image2{
+    background-image: url('../../Images/baylee-gramling-5m4Z14SDL80-unsplash.jpg');
+    background-size: 100%, 100%;  
+    @extend %cardBody;
+}
+.image3{
+    background-image: url('../../Images/humphrey-muleba-LOA2mTj1vhc-unsplash.jpg');
+    background-size: 550px, 100%;  
+    @extend %cardBody;
+}
+.image4{
+    background-image: url('../../Images/alora-griffiths-TuzrzArccvc-unsplash.jpg');
+    background-size: 550px, 100%;  
+    @extend %cardBody;
+}
+.image5{
+    background-image: url('../../Images/john-fornander-FIu48iuo_4g-unsplash.jpg');
+    background-size: 100%, 100%;  
+    @extend %cardBody;
+}
+.image6{
+    background-image: url('../../Images/sven-mieke-Lx_GDv7VA9M-unsplash.jpg');
+    background-size: 600px, 100%;  
     @extend %cardBody;
 }
 

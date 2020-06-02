@@ -44,7 +44,7 @@ const Navbar = () => {
                         <h1> <span className="fitness">THE BEST FITNESS</span> <br/> STUDIO IN TOWN</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis corporis eveniet omnis nemo optio dignissimos. Nisi, laboriosam ratione? Nesciunt doloribus soluta architecto. Amet, iusto eos. Aliquid aliquam...</p>
 
-                        <button type="button" class="btn btn-warning">JOIN US</button>
+                        <button type="button" className="btn btn-warning">JOIN US</button>
                     </div>
                     <div className="col-md-6">
 
