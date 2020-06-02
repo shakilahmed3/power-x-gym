@@ -16,6 +16,9 @@ import Classes from './components/Classes/Classes';
 import Notfound from './components/Notfound/Notfound';
 import ProductDetails from './components/ProductDetails/ProductDetails';
 import Pricing from './components/Pricing/Pricing';
+import MembershipForm from './components/MembershipForm/MembershipForm';
+import Payment from './components/Payment/Payment';
+import Paypal from './components/Paypal/Paypal';
 
 
 function App() {
@@ -32,6 +35,21 @@ function App() {
           <ProductDetails></ProductDetails>
           <Footer></Footer>
         </Route>
+        <Route path="/Membership">
+          <Navbar></Navbar>
+          <MembershipForm></MembershipForm>
+          <Footer></Footer>
+        </Route>
+        <Route path="/membershipFrom/paypal">
+          <Navbar></Navbar>
+          <Payment></Payment>
+          <Footer></Footer>
+        </Route>
+        <Route path="/paypal">
+          <Navbar></Navbar>
+          <Paypal></Paypal>
+          <Footer></Footer>
+        </Route>
         <Route path="/pricing">
           <Navbar></Navbar>
           <Pricing></Pricing>
@@ -45,8 +63,6 @@ function App() {
           <ChooseUs></ChooseUs>
           <Footer></Footer>
         </Route>
-
-
         <Route path="*">
           <Notfound></Notfound>
         </Route>

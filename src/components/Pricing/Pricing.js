@@ -1,5 +1,7 @@
 import React from 'react';
 import './Pricing.scss';
+import { Link } from 'react-router-dom';
+
 
 const Pricing = () => {
     return (
@@ -18,7 +20,7 @@ const Pricing = () => {
                                 <h6>Free Custom</h6>
                                 <h6>Outstanding</h6>
                                 <h6>Happy Customer</h6>
-                                <button className="btn-warning btn">PURCHASE</button>
+                                <Link to={"/Membership"}><button className="btn-warning btn">PURCHASE</button></Link>
                             </div>
                         </div>
                     </div>
@@ -35,7 +37,7 @@ const Pricing = () => {
                                 <h6>Free Custom</h6>
                                 <h6>Outstanding</h6>
                                 <h6>Happy Customer</h6>
-                                <button className="btn-warning btn">PURCHASE</button>
+                                <Link to={"/Membership"}><button className="btn-warning btn">PURCHASE</button></Link>
                             </div>
                         </div>
                     </div>
@@ -52,7 +54,7 @@ const Pricing = () => {
                                 <h6>Free Custom</h6>
                                 <h6>Outstanding</h6>
                                 <h6>Happy Customer</h6>
-                                <button className="btn-warning btn">PURCHASE</button>
+                                <Link to={"/Membership"}><button className="btn-warning btn">PURCHASE</button></Link>
                             </div>
                         </div>
                     </div>
